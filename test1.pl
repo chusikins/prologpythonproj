@@ -1,7 +1,3 @@
-% is used to add comments in code in prolog language
-%suggest(S) :- write('What is your personality type?: '),read(P),write('How is your mood?: '),read(M), song(S,_,M,P).
-
-
 %mood
 mood(happy).
 mood(sad).
@@ -58,5 +54,3 @@ song('https://www.youtube.com/watch?v=0pZmHnj3-jQ',hip_hop,M,P):- M = sad ,(P= (
 song('https://www.youtube.com/watch?v=KVIwQFEyZQE',soul,M,P):- M = sad ,(P= (esfj)),!.
 song('https://www.youtube.com/watch?v=ygxmpkHgaC8',country,M,P):- M = sad ,(P= (esfj)),!.
 song('https://www.youtube.com/watch?v=FqQjAUB6DJY',reggae,M,P):- M = sad ,(P= (isfp)),!.
-
-%! is called cut and is used to reduce backtracking
